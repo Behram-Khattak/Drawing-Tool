@@ -1,5 +1,5 @@
 import Canvas from "./components/Canvas";
-import Toolbar from "./components/ToolBar";
+// import Toolbar from "./components/ToolBar";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <div className="write-and-draw">
           <div className="canvas-container container mx-auto" id="canvas-container">
             {/* toolbar */}
-            <Toolbar />
+            {/* <Toolbar /> */}
             {/* canvas */}
             <Canvas />
           </div>
